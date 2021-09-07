@@ -30,10 +30,10 @@ Odoo模組開發實戰
 
 ## 第一章 開發環境與元件介紹
 1.Python
-    ●	簡單、應用廣泛、能快速上手
+    ●	簡單、應用廣泛、能快速上手      ![image](https://user-images.githubusercontent.com/90267374/132378090-e3dbfa23-8aea-4676-9cb6-f9e2156c0760.png)
     ● Odoo的核心開發語言
     ● 這裡使用3.7，可使用3.6+的版本
-    ![image](https://user-images.githubusercontent.com/90267374/132377939-d28c5c7b-7e20-4363-8832-97e3475c5982.png)
+    
  
 2 PostgreSQL
     ●	初始版本： 1996年7月8日
