@@ -29,7 +29,8 @@ Odoo模組開發實戰
     11.	報表
 
 ## 第一章 開發環境與元件介紹
-   
+1.Python
+ ![image](C:\Users\LIU\OneDrive\桌面\img1.png)
  
 2 PostgreSQL
     ●	初始版本： 1996年7月8日
