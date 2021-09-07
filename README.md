@@ -1,5 +1,5 @@
 Odoo模組開發實戰
-目錄
+# 目錄
     1.	開發元件與環境介紹
     1.	Python 3.7
     2.	PostgreSQL 10 
@@ -14,7 +14,7 @@ Odoo模組開發實戰
     6.	安裝Microsoft visual studio C++ 14.0
     7.	設定odoo專用的postgreSQL的登入帳號
     8.	odoo伺服器細部設定
-目錄
+# 目錄
 3. 模組開發實戰
     1.	情境模擬
     2.	系統規劃
