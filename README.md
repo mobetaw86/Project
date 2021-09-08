@@ -114,29 +114,34 @@ Python 3.7.X
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132426667-eb9de1ad-67a9-4c37-abc4-598d621c47de.png)
     <br/>
+2-2 PostgreSQL 10
     ●	https://www.postgresql.org/download/
      <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132426957-580aca85-9cbe-4a2b-a6cb-9ee8c333f729.png) 
-
-
-2-2 PostgreSQL 10
+     <br/>
     ●	請右鍵點選使用系統管理員執行
+     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132427073-46cec859-0ec1-4d35-9199-7ca8e56b09f7.png)
+     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132427084-5640f10b-451f-4bbe-bd4d-4e439438b4cf.png)
+     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132427104-610ccf24-9cae-4854-9c62-a7931259c91b.png)
+     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132427119-ede4ee89-4913-41fb-a5d7-4d960f69e7f3.png)
  
-3 Odoo
-    在C:/ 建立odoo資料夾，並將剛剛下載的odoo壓縮檔解壓至C:/odoo/ 
+2-3 Odoo
     <br/>
-    ![image](https://user-images.githubusercontent.com/90267374/132427152-91274c96-899b-4366-86a0-c8f22c3face0.png)        
+    ●	https://github.com/odoo/odoo/tree/13.0
     <br/>
-    ●	https://wkhtmltopdf.org/downloads.html    
+    ![image](https://user-images.githubusercontent.com/90267374/132468603-a4a3fa3f-977a-4f9b-80d8-9238e5f42c87.png)
+    <br/>     
     在C:/ 建立odoo資料夾，並將剛剛下載的odoo壓縮檔解壓至C:/odoo/
     <br/>
-    ![image](https://user-images.githubusercontent.com/90267374/132427203-d2fd90d5-f8f4-409b-b6c4-0ddd56b86d90.png)    
+2-4 wkhtmltopdf
     <br/>
     ●	https://wkhtmltopdf.org/downloads.html
+    <br/>
+    ![image](https://user-images.githubusercontent.com/90267374/132427203-d2fd90d5-f8f4-409b-b6c4-0ddd56b86d90.png)    
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132427251-abc7c62c-9c0f-42dc-978a-3bfc9434a2aa.png)
     <br/>
@@ -154,7 +159,7 @@ Python 3.7.X
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132427353-3dace1b7-bb94-4136-810b-b252a6ab8b12.png)
     <br/>
- PyCharm
+2-5 PyCharm
     <br/>
     ●	https://www.jetbrains.com/toolbox-app/download 
     <br/>
@@ -168,19 +173,19 @@ Python 3.7.X
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132427481-015af1a1-1887-4820-9bb1-b0ae3e6b9c37.png)
  
-6 安裝Microsoft visual studio C++ 14.0
+2-6 安裝Microsoft visual studio C++ 14.0
+    <br/>
     ●	https://visualstudio.microsoft.com/zh-hant/downloads/
     <br/>
     下載後並執行
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132427502-4a4f4051-e732-46d0-bdc0-33e407ee95ec.png)
-    <br/>
-    6 安裝Microsoft visual studio C++ 14.0
+    <br/>    
     ● 往下拉找到Desktop & Mobile 分類裡面有個Desktop development with C++打勾，接下來按下 install後等待安裝完成
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132427537-6d26ca3a-ac6d-4d3e-b750-f56e3e0281d6.png)
     <br/>
-    7 設定odoo專用的postgreSQL的登入帳號
+2-7 設定odoo專用的postgreSQL的登入帳號
     <br/>
     ● 在開始直接搜尋pgAdmin4，進去後輸入剛剛設定的密碼postgres
     <br/>
@@ -188,18 +193,26 @@ Python 3.7.X
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132427567-d15ec86b-ad3f-4411-bced-50c4ab5d858b.png)
     <br/>
-    7 設定odoo專用的postgreSQL的登入帳號
-    ●	右鍵點擊Login/Group Roles -> create -> Login/Group Roles
-      ![image](https://user-images.githubusercontent.com/90267374/132427707-43133b25-753c-462d-aaa9-60826ee8b961.png)
-
-請重新開機讓Python跟wkhtmltopdf的環境變數載入
+    ●	右鍵點擊Login/Group Roles -> create -> Login/Group Roles    
+    <br/>
+    ●	General 的Name(登入帳號) 輸入 odoo
+    <br/>
+    ●	Definition 的 Password (登入密碼) 輸入odoo
+    <br/>
+    ●	Privileges 全開
+    <br/>
+    ![image](https://user-images.githubusercontent.com/90267374/132470472-547dd576-5b81-4a43-9f2a-ca690263dee5.png)
+    <br/>
+    請重新開機讓Python跟wkhtmltopdf的環境變數載入
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132427730-2423a8fe-26a5-4996-9ec9-a4bd00a101ee.png)
     <br/>
-重新開機後使用cmd執行下面指令，
-觀察是否有被正確抓到程式 python --version wkhtmltopdf -V
+    重新開機後使用cmd執行下面指令
+    <br/>
+    觀察是否有被正確抓到程式 python --version wkhtmltopdf -V
 
- Odoo伺服器細部設定
+ 2-8 Odoo伺服器細部設定
+     <br/>
      ●	執行PyCharm，開啟C:/odoo
      <br/>
      ●	Pycharm將會抓取python程式位置，並且對開啟資料夾裡的所有檔案進行索引，這會花費一點時間要稍微等待一下
@@ -210,6 +223,7 @@ Python 3.7.X
      ![image](https://user-images.githubusercontent.com/90267374/132427846-189eceb9-9801-4752-be58-7e4462091983.png)
      <br/>
      ●	將路徑設定在C:\odoo\venv_odoo13(無此名稱會建立一個資料夾) 注意，這一定得是空資料夾才可建立環境
+     <br/>
      ●	只勾選 Make available to all projects (讓所有專案可使用此環境) 不勾選 Inherit global site-packages 
      (繼承python主要已擁有套件[此設定會把所有套件複製一份])
      <br/>
@@ -243,6 +257,7 @@ Python 3.7.X
       ![image](https://user-images.githubusercontent.com/90267374/132428108-3ffedc20-9e13-4ddf-8c29-f93eab6a3a6d.png)
       <br/>
   ●	執行odoo伺服器
+  <br/>
   ●	到瀏覽器的網址列輸入 127.0.0.1:8069，能看到Odoo的建立資料庫畫面就完成了
   <br/>
   ![image](https://user-images.githubusercontent.com/90267374/132428120-dc8d8f3b-cbb2-4553-b7bc-7e6241788bb3.png)
