@@ -80,7 +80,8 @@ Python 3.7.X
     ●	因自動安裝會預設裝到奇怪的地方，因此選擇自訂安裝
     ●	若Python為64位元版本，在一開始的畫面會有64-bit的字樣
     ![image](https://user-images.githubusercontent.com/90267374/132426628-3cf4c4e3-26b5-4d23-b8eb-0612b419fe66.png)
-    
+
+
     ●	請把路徑放到C:/底下，資料夾名稱皆可(e.g py37, Python37 … etc.)
     ●	上方選項可預設選取，也可全選
     ![image](https://user-images.githubusercontent.com/90267374/132426667-eb9de1ad-67a9-4c37-abc4-598d621c47de.png)
