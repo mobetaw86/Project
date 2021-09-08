@@ -80,8 +80,6 @@ Python 3.7.X
     ●	因自動安裝會預設裝到奇怪的地方，因此選擇自訂安裝
     ●	若Python為64位元版本，在一開始的畫面會有64-bit的字樣
     ![image](https://user-images.githubusercontent.com/90267374/132426628-3cf4c4e3-26b5-4d23-b8eb-0612b419fe66.png)
-
-
     ●	請把路徑放到C:/底下，資料夾名稱皆可(e.g py37, Python37 … etc.)
     ●	上方選項可預設選取，也可全選
     ![image](https://user-images.githubusercontent.com/90267374/132426667-eb9de1ad-67a9-4c37-abc4-598d621c47de.png)
@@ -97,38 +95,29 @@ Python 3.7.X
     ![image](https://user-images.githubusercontent.com/90267374/132427119-ede4ee89-4913-41fb-a5d7-4d960f69e7f3.png)
  
 3 Odoo
-在C:/ 建立odoo資料夾，並將剛剛下載的odoo壓縮檔解壓至C:/odoo/ 
+    在C:/ 建立odoo資料夾，並將剛剛下載的odoo壓縮檔解壓至C:/odoo/ 
+    <br/>
     ●	https://wkhtmltopdf.org/downloads.html
     ![image](https://user-images.githubusercontent.com/90267374/132427152-91274c96-899b-4366-86a0-c8f22c3face0.png)
-    
+      <br/>
     在C:/ 建立odoo資料夾，並將剛剛下載的odoo壓縮檔解壓至C:/odoo/
-    ![image](https://user-images.githubusercontent.com/90267374/132427203-d2fd90d5-f8f4-409b-b6c4-0ddd56b86d90.png)
-    
+    ![image](https://user-images.githubusercontent.com/90267374/132427203-d2fd90d5-f8f4-409b-b6c4-0ddd56b86d90.png)    
     ●	https://wkhtmltopdf.org/downloads.html
     ![image](https://user-images.githubusercontent.com/90267374/132427251-abc7c62c-9c0f-42dc-978a-3bfc9434a2aa.png)
-    ![image](https://user-images.githubusercontent.com/90267374/132427285-0df4e88c-bb66-492f-beff-ed107ec7a0cb.png)
-    
+    ![image](https://user-images.githubusercontent.com/90267374/132427285-0df4e88c-bb66-492f-beff-ed107ec7a0cb.png)    
     將 C:\Program Files\wkhtmltopdf\bin\ 加入環境變數
     ![image](https://user-images.githubusercontent.com/90267374/132427311-b0c2182e-c20b-4b32-b46b-a38c3896c86e.png)
-
     將 C:\Program Files\wkhtmltopdf\bin\ 加入環境變數
-   ![image](https://user-images.githubusercontent.com/90267374/132427339-c2e17b6b-085f-44e3-8c1b-507068819f30.png)
-
+    ![image](https://user-images.githubusercontent.com/90267374/132427339-c2e17b6b-085f-44e3-8c1b-507068819f30.png)
     將 C:\Program Files\wkhtmltopdf\bin\ 加入環境變數
     ![image](https://user-images.githubusercontent.com/90267374/132427353-3dace1b7-bb94-4136-810b-b252a6ab8b12.png)
-
     PyCharm
     ●	https://www.jetbrains.com/toolbox-app/download 
     ![image](https://user-images.githubusercontent.com/90267374/132427412-1c290372-2b82-4312-8a3f-231d9a9f1f28.png)
-
     ●	https://www.jetbrains.com/toolbox-app/download
-    ![image](https://user-images.githubusercontent.com/90267374/132427432-b70185a2-f004-4f50-8e8a-e51492d17a85.png)
-    
+    ![image](https://user-images.githubusercontent.com/90267374/132427432-b70185a2-f004-4f50-8e8a-e51492d17a85.png)    
     ![image](https://user-images.githubusercontent.com/90267374/132427462-8080fa3c-0f0c-434c-85a4-7ded3828b528.png)
-
     ![image](https://user-images.githubusercontent.com/90267374/132427481-015af1a1-1887-4820-9bb1-b0ae3e6b9c37.png)
-
- 
  
 6 安裝Microsoft visual studio C++ 14.0
     ●	https://visualstudio.microsoft.com/zh-hant/downloads/
@@ -142,11 +131,11 @@ Python 3.7.X
     7 設定odoo專用的postgreSQL的登入帳號
     ● 在開始直接搜尋pgAdmin4，進去後輸入剛剛設定的密碼postgres
       點選PostgreSQL10後會再要求輸入一次密碼
-![image](https://user-images.githubusercontent.com/90267374/132427567-d15ec86b-ad3f-4411-bced-50c4ab5d858b.png)
+      ![image](https://user-images.githubusercontent.com/90267374/132427567-d15ec86b-ad3f-4411-bced-50c4ab5d858b.png)
 
     7 設定odoo專用的postgreSQL的登入帳號
     ●	右鍵點擊Login/Group Roles -> create -> Login/Group Roles
-    ![image](https://user-images.githubusercontent.com/90267374/132427707-43133b25-753c-462d-aaa9-60826ee8b961.png)
+      ![image](https://user-images.githubusercontent.com/90267374/132427707-43133b25-753c-462d-aaa9-60826ee8b961.png)
  
 請重新開機讓Python跟wkhtmltopdf的環境變數載入
     ![image](https://user-images.githubusercontent.com/90267374/132427730-2423a8fe-26a5-4996-9ec9-a4bd00a101ee.png)
