@@ -37,6 +37,7 @@ Odoo模組開發實戰
     ● 這裡使用3.7，可使用3.6+的版本 
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132378090-e3dbfa23-8aea-4676-9cb6-f9e2156c0760.png) 
+    <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132426077-eaf595a3-df2b-4b49-a257-7c3aee82adba.png)
 
     
@@ -58,10 +59,15 @@ Odoo模組開發實戰
  
 3 Odoo
     ●	Odoo（先前曾名為OpenERP，更早之前則為TinyERP）
+    <br/>
     ●	是一套企業資源規劃（ERP）及客戶關係管理（CRM）系統。
+    <br/>
     ●	以Python語言開發，資料庫採用開源的PostgreSQL。
+    <br/>
     ●	免費、開源ERP系統
+    <br/>
     ●	功能模組化
+     <br/>
     ●	針對存在模組開發額外功能強大
     ●	MVC架構
     <br/>
@@ -69,9 +75,11 @@ Odoo模組開發實戰
 
 4 PyCharm
     ●	免費(Community)
+    <br/>
     ●	多平台安裝簡易
-    ●	優點: 整合版控、Terminal、Python Console...等
-    (若為Pro版也包含資料庫連線工具，直接對應程式碼使用之SQL檢查)
+    <br/>
+    ●	優點: 整合版控、Terminal、Python Console...等(若為Pro版也包含資料庫連線工具，直接對應程式碼使用之SQL檢查)
+    <br/>
     ●	缺點: 消耗記憶體較高，對於大量變更檔案時會很慢，專業版需要收費
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132426356-6a4cff07-1e81-4ea3-9b3e-17f5fcb4ea82.png) 
@@ -90,12 +98,15 @@ Python 3.7.X
 
 2-1 安裝 Python 3.7
     ●	記得將python 加到環境變數(記得使用管理員權限安裝)
+    <br/>
     ●	因自動安裝會預設裝到奇怪的地方，因此選擇自訂安裝
+    <br/>
     ●	若Python為64位元版本，在一開始的畫面會有64-bit的字樣
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132426628-3cf4c4e3-26b5-4d23-b8eb-0612b419fe66.png)
     <br/>
     ●	請把路徑放到C:/底下，資料夾名稱皆可(e.g py37, Python37 … etc.)
+    <br/>
     ●	上方選項可預設選取，也可全選
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132426667-eb9de1ad-67a9-4c37-abc4-598d621c47de.png)
@@ -187,6 +198,7 @@ Python 3.7.X
 
  Odoo伺服器細部設定
      ●	執行PyCharm，開啟C:/odoo
+     <br/>
      ●	Pycharm將會抓取python程式位置，並且對開啟資料夾裡的所有檔案進行索引，這會花費一點時間要稍微等待一下
      <br/>
      ![image](https://user-images.githubusercontent.com/90267374/132427820-688c1e9b-f599-441f-92a0-f8309cedd3f0.png)
