@@ -30,8 +30,8 @@
  views/views.xml    
  demo/demo.py        
  models/models.py  
- controllers/controllers.py 程式區塊註解後重新啟動
-  
+ controllers/controllers.py 
+ 將以上檔案程式區塊註解取消後重新啟動
  <br/>
  更新
  ![image](https://user-images.githubusercontent.com/90267374/132827854-64bef14f-0212-443b-b903-7f386758d1aa.png)
