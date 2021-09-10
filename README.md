@@ -114,6 +114,7 @@ Python 3.7.X
     <br/>
     ![image](https://user-images.githubusercontent.com/90267374/132426667-eb9de1ad-67a9-4c37-abc4-598d621c47de.png)
     <br/>
+    <br/>
 2-2 PostgreSQL 10
     ●	https://www.postgresql.org/download/
      <br/>
