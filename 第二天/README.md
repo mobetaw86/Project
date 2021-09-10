@@ -27,14 +27,11 @@
  <br/>
  ![image](https://user-images.githubusercontent.com/90267374/132825762-ca43a35b-dc23-4d77-8945-17d1ff70f1c2.png)
  <br/>
- 至 views/views.xml    
- <br/>
-    demo/demo.py       
- <br/>
-    models/models.py  
- <br/>
-    controllers/controllers.py 程式區塊註解
- 後重新啟動
+ views/views.xml    
+ demo/demo.py        
+ models/models.py  
+ controllers/controllers.py 程式區塊註解後重新啟動
+  
  <br/>
  更新
  ![image](https://user-images.githubusercontent.com/90267374/132827854-64bef14f-0212-443b-b903-7f386758d1aa.png)
