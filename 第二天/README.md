@@ -27,13 +27,13 @@
  <br/>
  ![image](https://user-images.githubusercontent.com/90267374/132825762-ca43a35b-dc23-4d77-8945-17d1ff70f1c2.png)
  <br/>
- 至 views/views.xml   取消程式區塊註解
+ 至 views/views.xml    
  <br/>
- 至 demo/demo.py      取消程式區塊註解
+    demo/demo.py       
  <br/>
- 至 models/models.py  取消程式區塊註解
+    models/models.py  
  <br/>
- 至 controllers/controllers.py 程式區塊註解
+    controllers/controllers.py 程式區塊註解
  後重新啟動
  <br/>
  更新
