@@ -1,7 +1,13 @@
  Odoo模組開發實戰
 # 目錄
  1.	開發Odoo應用程式
-
+    1.建立addons資料夾
+    2.建構模塊
+    3.創建Database
+    4.安裝
+    5.取消註解
+    6.更新
+    
 ## 第一章　開發Odoo應用程式
  <br/>
  1.建立addons資料夾
@@ -33,7 +39,7 @@
  controllers/controllers.py 
  將以上檔案程式區塊註解取消後重新啟動
  <br/>
- 更新
+ 6.更新
  ![image](https://user-images.githubusercontent.com/90267374/132827854-64bef14f-0212-443b-b903-7f386758d1aa.png)
  <br/>
  成功
