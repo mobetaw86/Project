@@ -13,4 +13,5 @@ Odoo模組開發實戰
     5.第五天:創建menu
     <br/>
     6.第六天:VIEW-List View
+    <br/>
     7.第七天:VIEW-Form View
