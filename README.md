@@ -15,3 +15,5 @@ Odoo模組開發實戰
     6.第六天:VIEW-List View
     <br/>
     7.第七天:VIEW-Form View
+    <br/>
+    8.第八天:VIEW-Search View
