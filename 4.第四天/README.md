@@ -3,7 +3,7 @@ Odoo模組開發實戰
    1.增加商務邏輯
 ## 第一章 增加商務邏輯
    1.自動計算
-   ![image](https://user-images.githubusercontent.com/90267374/132932903-4c93a9cf-521e-407c-8d62-26029ae2c5b9.png)
+   ![image](https://user-images.githubusercontent.com/90267374/132939134-dba7aebe-7815-4326-9f9d-a0839e7de4fc.png)    
    <br/>
    
    於租金總額欄位設置 compute = _compute_price_total，store設置為True(計算自斷所依賴的數據改變時，會同時更新)
