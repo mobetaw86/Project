@@ -11,5 +11,11 @@ Odoo模組開發實戰
  <br/>
  ![image](https://user-images.githubusercontent.com/90267374/132941442-3f592ba2-e934-4683-8368-4f25a6d15b71.png)
 
+ 3.屬性講解: 
+ 
+ |  屬性 | 內容 | 
+ | -------- | -------- | 
+ | filter_domain | 為定義的查詢條件 |  
+ 
  
  
