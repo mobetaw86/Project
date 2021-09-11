@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="alltop_freezer.list">
+      <field name="name">alltop_freezer list</field>
+      <field name="model">alltop_freezer.alltop_freezer</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="square_feet"/>
+          <field name="price_unit"/>
+          <field name="price_total"/>
+        </tree>
+      </field>
+    </record>
+
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="alltop_freezer.action_window">
+      <field name="name">alltop_freezer window</field>
+      <field name="res_model">alltop_freezer.alltop_freezer</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <!-- server action to the one above -->
+
+    <record model="ir.actions.server" id="alltop_freezer.action_server">
+      <field name="name">alltop_freezer server</field>
+      <field name="model_id" ref="model_alltop_freezer_alltop_freezer"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+
+    <!-- Top menu item -->
+
+    <menuitem name="冷凍庫位管理系統" id="alltop_freezer.menu_root"/>
+
+    <!-- menu categories -->
+
+    <menuitem name="產品管理" id="alltop_freezer.menu_1" parent="alltop_freezer.menu_root"/>
+    <menuitem name="冷凍庫位" id="alltop_freezer.menu_2" parent="alltop_freezer.menu_root"/>
+
+    <!-- actions -->
+
+    <menuitem name="List" id="alltop_freezer.menu_1_list" parent="alltop_freezer.menu_1"
+              action="alltop_freezer.action_window"/>
+    <menuitem name="Server to list" id="alltop_freezer" parent="alltop_freezer.menu_2"
+              action="alltop_freezer.action_server"/>
+
+  </data>
+</odoo>
