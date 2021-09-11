@@ -50,9 +50,15 @@
  將以上檔案程式區塊註解取消後重新啟動
  <br/>
  
+ 
  6.更新
  ![image](https://user-images.githubusercontent.com/90267374/132827854-64bef14f-0212-443b-b903-7f386758d1aa.png)
  <br/>
+ 
+ 小技巧: 如果設置 -u dbname，之後重新啟動將自動更新
+ ![image](https://user-images.githubusercontent.com/90267374/132929143-07dc9878-fb6e-4cb7-a658-310c7e36281f.png)
+
+ 
  成功
  ![image](https://user-images.githubusercontent.com/90267374/132827965-ca8ac133-81d3-4a38-ac09-08392aaf932c.png)
 
