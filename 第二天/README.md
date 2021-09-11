@@ -56,8 +56,7 @@
  <br/>
  
  小技巧: 如果設置 -u dbname，之後重新啟動將自動更新
- ![image](https://user-images.githubusercontent.com/90267374/132929143-07dc9878-fb6e-4cb7-a658-310c7e36281f.png)
-
+ ![image](https://user-images.githubusercontent.com/90267374/132931033-07962807-2aec-4d33-9a0a-456a5407a08b.png)
  
  成功
  ![image](https://user-images.githubusercontent.com/90267374/132827965-ca8ac133-81d3-4a38-ac09-08392aaf932c.png)
