@@ -1,0 +1,22 @@
+<odoo>
+  <data>
+    <!-- Top menu item -->
+
+    <menuitem name="冷凍庫位管理系統" id="alltop_freezer.menu_root"/>
+
+    <!-- menu categories -->
+
+    <menuitem name="產品管理" id="alltop_freezer.menu_1" parent="alltop_freezer.menu_root"/>
+    <menuitem name="冷凍庫位" id="alltop_freezer.menu_2" parent="alltop_freezer.menu_root"/>
+    <menuitem name="報表"  id="alltop_freezer.report" parent="alltop_freezer.menu_root"/>
+    <!-- actions -->
+
+    <menuitem name="產品" id="alltop_freezer.menu_1_list" parent="alltop_freezer.menu_1"
+              action="alltop_freezer.action_window"/>
+    <menuitem name="庫位" id="alltop_freezer" parent="alltop_freezer.menu_2"
+              action="alltop_freezer.action_server"/>
+    <menuitem name="Pivot" id="alltop_freezer_menu_report"  parent="alltop_freezer.report"
+              action="action_view_pivot" sequence="5"/>
+
+  </data>
+</odoo>
