@@ -20,4 +20,6 @@ Odoo模組開發實戰
     <br/>
     9.第九天:VIEW-Pivot View
     <br/>
-    1.第十天:Action
+    1.第十天  :Action-Window Actions (ir.actions.act_window）
+    2.第十一天:Action-URL Actions (ir.actions.act_url)
+    3.第十二天:Action-Server Actions (ir.actions.server)
