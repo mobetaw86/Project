@@ -8,11 +8,7 @@ Odoo模組開發實戰
     <br/>
     1.3 Server Actions (ir.actions.server)
     <br/>
-    1.4 Report Actions (ir.actions.report)
-    <br/>
-    1.5 Client Actions (ir.actions.client)
-    <br/>
-    1.6 Automated Actions (ir.cron)
+ 
     
 ## 第一章 Action
 <br/>
