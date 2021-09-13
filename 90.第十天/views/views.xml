@@ -68,12 +68,6 @@
       </field>
     </record>
 
-    <record model="ir.actions.act_url" id="action_view_url">
-      <field name="name">Odoo</field>
-      <field name="url">https://odoo.com</field>
-      <field name="target">new</field>
-    </record>
-
     <!-- Marks Graph view -->
     <record model="ir.ui.view" id="alltop_freezer_tree_view">
       <field name="name">alltop_freezer Tree View</field>
