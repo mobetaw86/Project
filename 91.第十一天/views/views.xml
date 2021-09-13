@@ -1,0 +1,114 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="alltop_freezer.list">
+      <field name="name">alltop_freezer list</field>
+      <field name="model">alltop_freezer.alltop_freezer</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="square_feet"/>
+          <field name="price_unit"/>
+          <field name="price_total"/>
+          <field name="partner_id"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="alltop_freezer.form">
+      <field name="name">alltop_freezer form</field>
+      <field name="model">alltop_freezer.alltop_freezer</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <field name="name"/>
+            </group>
+            <group>
+              <field name="square_feet"/>
+              <field name="price_unit"/>
+              <field name="price_total"/>
+              <field name="partner_id"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="alltop_freezer.search">
+      <field name="name">alltop_freezer search</field>
+      <field name="model">alltop_freezer.alltop_freezer</field>
+      <field name="arch" type="xml">
+          <search>
+              <field name="name" />
+              <field name="partner_id" filter_domain="[('partner_id', 'ilike', self)]"/>
+          </search>
+      </field>
+    </record>
+
+
+
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="alltop_freezer.action_window">
+      <field name="name">alltop_freezer window</field>
+      <field name="res_model">alltop_freezer.alltop_freezer</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record  model="ir.actions.act_window" id="action_view_pivot">
+      <field name="name">View Pivot</field>
+      <field name="res_model">alltop_freezer.alltop_freezer</field>
+      <field name="view_mode">pivot</field>
+      <field name="domain">[]</field>
+      <field name="help" type="html">
+        <p class="oe_view_nocontent_create">Enter the target</p>
+      </field>
+    </record>
+
+    <record model="ir.actions.act_url" id="action_view_url">
+      <field name="name">Odoo</field>
+      <field name="url">https://odoo.com</field>
+      <field name="target">new</field>
+    </record>
+
+    <record model="ir.actions.act_url" id="action_view_url">
+      <field name="name">Odoo</field>
+      <field name="url">https://odoo.com</field>
+      <field name="target">new</field>
+    </record>
+
+    <!-- Marks Graph view -->
+    <record model="ir.ui.view" id="alltop_freezer_tree_view">
+      <field name="name">alltop_freezer Tree View</field>
+      <field name="model">alltop_freezer.alltop_freezer</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="partner_id"/>
+        </tree>
+      </field>
+    </record>
+
+    <!-- server action to the one above -->
+
+    <record model="ir.actions.server" id="alltop_freezer.action_server">
+      <field name="name">alltop_freezer server</field>
+      <field name="model_id" ref="model_alltop_freezer_alltop_freezer"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+
+
+
+
+  </data>
+</odoo>
