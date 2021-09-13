@@ -49,6 +49,7 @@ Odoo模組開發實戰
      
          2.3 範例       
 ![image](https://user-images.githubusercontent.com/90267374/133021095-441a1591-b9ae-46f9-9594-27de58cbe697.png)
+![image](https://user-images.githubusercontent.com/90267374/133040030-2a0ce9bb-b47c-4130-9855-b2c6ef3e7895.png)
 
 | VIEW      | ACTION   | 
 | --------  | -------- | 
