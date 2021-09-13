@@ -259,8 +259,12 @@ Python 3.7.X
       <br/>
   ●	執行odoo伺服器
   <br/>
+  小提示: 
+  如缺少套件，可在Terminal 執行 pip install '套件名稱' 安裝此套件。     
+  <br/>
   ●	到瀏覽器的網址列輸入 127.0.0.1:8069，能看到Odoo的建立資料庫畫面就完成了
   <br/>
   ![image](https://user-images.githubusercontent.com/90267374/132428120-dc8d8f3b-cbb2-4553-b7bc-7e6241788bb3.png)
-
  
+  
+  
