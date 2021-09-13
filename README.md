@@ -19,3 +19,5 @@ Odoo模組開發實戰
     8.第八天:VIEW-Search View
     <br/>
     9.第九天:VIEW-Pivot View
+    <br/>
+    1.第十天:Action
