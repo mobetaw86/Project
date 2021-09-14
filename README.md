@@ -25,3 +25,5 @@ Odoo模組開發實戰
     第十一天:Action-URL Actions (ir.actions.act_url)
     <br/>
     第十二天:Action-Server Actions (ir.actions.server)
+    <br/>
+    第十三天:onchange()
