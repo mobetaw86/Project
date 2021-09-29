@@ -27,3 +27,8 @@ Odoo模組開發實戰
     第十二天:Action-Server Actions (ir.actions.server)
     <br/>
     第十三天:onchange()
+    <br/>
+    第十四天:
+    <br/>
+    第十五天:繼承Models & 方法
+    
