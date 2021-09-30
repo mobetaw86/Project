@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+      <report id="freezer_invoice_report"
+              model="alltop_freezer.alltop_invoice"
+              string="知名股份有限公司"
+              report_type="qweb-pdf"
+              name="alltop_freezer.freezer_invoice_report"
+      />
+
+</odoo>
+
+

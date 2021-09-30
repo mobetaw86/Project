@@ -1,0 +1,22 @@
+<data>
+    <record  model="ir.ui.view" id="print_invoice_form">
+        <field name="name">print_invoice_form</field>
+        <field name="model">print.invoice</field>
+        <field name="arch" type="xml">
+            <form>
+                <p>知名股份有限公司</p>
+                <footer>
+                    <button type="object" name="generateReport" string="確定" class="oe_highlight"/>
+                    <button special="cancel" string="取消"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="print_invoice_action" >
+        <field name="name">列印收據</field>
+        <field name="res_model">print.invoice</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</data>
