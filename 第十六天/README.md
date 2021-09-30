@@ -14,4 +14,9 @@ Odoo模組開發實戰
 
 ![image](https://user-images.githubusercontent.com/90267374/135500694-ebd77132-4e13-4834-8131-c3f9c7d2d2ed.png)
 
+![image](https://user-images.githubusercontent.com/90267374/135501096-b999cb08-7ca6-4154-af8a-efab52fa6820.png)
+
+![image](https://user-images.githubusercontent.com/90267374/135501139-bd6ac0cc-e943-499a-8b3f-72785f82bca5.png)
+
+
 別忘了要修改__init__ & __manifest__ !!
