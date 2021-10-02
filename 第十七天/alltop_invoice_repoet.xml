@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+      <report id="freezer_invoice_report"
+              model="alltop_freezer.alltop_invoice"
+              string="知名股份有限公司"
+              report_type="qweb-pdf"
+              name="alltop_freezer.freezer_invoice_report"
+
+      />
+
+      <template id="freezer_invoice_report">
+            <t t-call="web.html_container">
+                  <t t-foreach="docs" t-as="x">
+                        <div t-call="web.basic_layout">
+                              <div class="page">
+                                    <div style="text-align:center;">
+                                         <!-- Report header content -->
+                                    </div>
+                              </div>
+                        </div>
+                  </t>
+            </t>
+      </template>
+</odoo>
+
+
