@@ -37,3 +37,5 @@ Odoo模組開發實戰
     第十七天:匯出報表-QWEB
     <br/>
     第十八天:QWEB-報表內容
+    <br/>
+    第十九天:Odoo Debug
