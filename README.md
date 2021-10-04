@@ -39,3 +39,5 @@ Odoo模組開發實戰
     第十八天:QWEB-報表內容
     <br/>
     第十九天:Odoo Debug
+    <br/> 
+    第二十天: API介紹
